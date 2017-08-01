@@ -1,11 +1,21 @@
+body{
+	background: url(http://mscs.mum.edu/images/background.jpg);
+}
+
 header{
-	background: url(img/masthead.png);
+	background: url(img/masthead.png) no-repeat;
 
 }
 
+.wrap{
+	width: 900px;
+	margin: 0 auto;
+	background: white;
+}
 footer{
 	min-height: 100px;
 	background-color: #DFE6EC;
+	margin-top: 50px;
 }
 
 .foot{
@@ -18,8 +28,12 @@ footer{
 main{
 	width: 80%;
 	margin: 0 auto;
-	background-color: #DFE6EC;
+	
 	    color: #1a2853;
+}
+
+.one{
+	background-color: #DFE6EC;
 }
 
 .logos{
@@ -50,4 +64,16 @@ margin-left: 30px;
 .red{
 	background-color: red;
 	color: white;
+}
+.text-red{
+	color: red;
+}
+
+h3 a{
+	text-decoration: none;
+}
+
+input, select, button{
+	width: 80%;
+	margin-top: 10px;
 }
