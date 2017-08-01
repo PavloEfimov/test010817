@@ -1,3 +1,8 @@
+header{
+	background: url(img/masthead.png);
+	background-color: lime;
+}
+
 footer{
 	min-height: 100px;
 	background-color: #DFE6EC;
