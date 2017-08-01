@@ -36,3 +36,11 @@ margin-left: 30px;
 .main{
 	float: right;
 }
+
+.block{
+	display: block;
+}
+.red{
+	background-color: red;
+	color: white;
+}
