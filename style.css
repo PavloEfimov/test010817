@@ -1,6 +1,6 @@
 header{
 	background: url(img/masthead.png);
-	background-color: lime;
+
 }
 
 footer{
@@ -18,6 +18,8 @@ footer{
 main{
 	width: 80%;
 	margin: 0 auto;
+	background-color: #DFE6EC;
+	    color: #1a2853;
 }
 
 .logos{
