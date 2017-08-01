@@ -10,6 +10,11 @@ footer{
     line-height: 24px;
 }
 
+main{
+	width: 80%;
+	margin: 0 auto;
+}
+
 .logos{
 	width: 100%;
 }
@@ -27,4 +32,7 @@ footer{
 
 .head{
 margin-left: 30px;	
+}
+.main{
+	float: right;
 }
