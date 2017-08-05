@@ -1,41 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
 body{
 	background: url(http://mscs.mum.edu/images/background.jpg);
 }
 
 header{
 	background: url(img/masthead.png) no-repeat;
-
+	padding: 15px;
+	
 }
 
 .wrap{
 	width: 900px;
 	margin: 0 auto;
 	background: white;
+	padding-bottom: 5px;
 }
-footer{
+article{
 	min-height: 100px;
 	background-color: #DFE6EC;
 	margin-top: 50px;
+	    overflow: hidden;
+    padding: 20px 30px;
+    margin: 20px 10px 10px;
 }
 
 .foot{
 	    float: left;
-    width: 48%;
+    width: 46%;
     font-size: 12px;
     line-height: 24px;
-}
+    margin: 0 1%;
+} 
 
 main{
-	width: 80%;
-	margin: 0 auto;
+	width: 98%;
+	margin: 5px auto 125px;
+	color: #1a2853;
 	
-	    color: #1a2853;
 }
 
 .one{
 	background-color: #DFE6EC;
+	margin-top: 6px;
+	padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 25px;
 }
-
+.two{
+	margin-top: 6px;
+	padding-top: 10px;
+    padding-left: 40px;
+    padding-bottom: 25px;
+}
 .logos{
 	width: 100%;
 }
@@ -43,6 +62,7 @@ main{
 .lt{
 	float: left;
 }
+
 
 .rt{
 	float: right;
@@ -54,26 +74,136 @@ main{
 .head{
 margin-left: 30px;	
 }
+
 .main{
 	float: right;
+	margin-top: 10px;
+	margin-right: 20px;
+	box-shadow: 0px 4px 20px 5px #C1BBBB;
+
+}
+
+.main p{
+	    
+    font-size: 16px;
+    margin-bottom: 6px;
+    
 }
 
 .block{
 	display: block;
 }
 .red{
-	background-color: red;
-	color: white;
+	background-color: #CD1920;
+	color: #fff;
+	margin-top: -2px;
+	margin-bottom: 10px;
+	min-height: 100px;
+	padding-top: 9px;
+}
+.red p, .red h4{
+	text-align: center;
+}
+.red p{
+	font-weight: bold;
+}
+.red h4{
+	font-size: 24px;
+    line-height: 30px;
 }
 .text-red{
-	color: red;
+	color: #CD1920;;
 }
 
-h3 a{
+header h1{
+	font: normal 24px/27px MyriadProSemibold,sans-serif;
+	    color: #1a2853;
+}
+
+header  h1 a{
 	text-decoration: none;
+	color: #1a2853;
+}
+header  h2{
+	font: normal 12px/19px MyriadProSemibold,sans-serif;
+    color: #7e8285;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
 input, select, button{
-	width: 80%;
+	width: 90%;
 	margin-top: 10px;
+	height: 30px;
+	padding-left: 10px;
 }
+
+input, select, {
+	color: #1a2853;
+}
+
+button{
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+    font: normal normal 12px Lucida Sans Unicode;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    word-wrap: break-word;
+    outline: none;
+    max-width: 100%;
+}
+.one h1{
+	font: bold normal 18px/26px Verdana,sans-serif;
+    color: #1a2853;
+    margin: 0px 0px 9px -15px;
+    padding: 0px;
+}
+ul{
+	    font-size: 13px;
+    line-height: 24px;
+}
+
+.brochure {
+    margin: 12px auto;
+    padding-left: 10px;
+    width: 290px;
+    float: left;
+    }
+
+    input:after{
+    content: "*";
+	color: #CD1920;
+    }
+    .block,.text1{
+    	display: inline-block;
+    }
+    section{
+    	margin: 0 40px;
+    }
+    section p{
+    	margin-bottom: 15px;
+    	color: #1a2853;
+    	font-weight: bold;
+    }
+    footer{
+    	margin-top: 15px;
+    	padding-bottom: 15px;
+    	text-align: center;
+    	line-height: 350%;
+    }
+
+    footer a{
+    	color: #DEE5EB;
+    text-decoration: none;
+    }
+    .copy{
+    	    font: 11px/18px Verdana,Arial,Helvetica,sans-serif;
+    	    text-transform: uppercase;
+    }
